@@ -1,0 +1,29 @@
+:root {
+   --amarelo: (rgb(250, 250, 71));
+   --azul: (rgb(105,89,205) );
+   --branco: (#Fefefe);
+   --preto: (rgb(54,54,54));
+   --rosa: (rgb(255,105,180));
+   --vermelho: (rgb(255,99,71));
+
+}
+
+.seletor--de--cores {
+   display: flex;
+   flex-direction: column;
+   padding: 1.5rem;
+   margin: 0.5rem;
+}
+
+.btn { 
+   margin-top: 0.5rem ;
+   border-radius: 10px;
+   border-color: var(--main-azulClaro);
+   font-family: 'Teko', sans-serif;
+   font-size: 1.09rem;
+   cursor: pointer;
+}
+
+.btn:last-child {
+   margin-top: 15%;
+}
